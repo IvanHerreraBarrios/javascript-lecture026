@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript basics</title>
+</head>
+
+<body>
+    <h1>Javascript basics</h1>
+    <ul>
+        <li>Spring</li>
+        <li>Summer</li>
+        <li>Fall</li>
+        <li>Winter</li>
+    </ul>
+    <script>
+      console.log(Date());
+
+      let date = new Date();
+      console.log(date);
+      // the day of the month
+      console.log(date.getDate());
+      // the day of the week 0 1 2 3 4 5 6
+      console.log(date.getDay());
+      // 0 1 2 3 4 5 6 7 8 9 10 11
+      console.log(date.getMonth());
+      console.log(date.getFullYear());
+      // 0 - 23
+      console.log(date.getHours());
+      console.log(date.getMinutes());
+      console.log(date.getSeconds());
+      console.log(date.getMilliseconds());
+      console.log(date.toString());
+      console.log(date.toDateString());
+      console.log(date.toLocaleString());
+      console.log(date.toLocaleDateString());
+      console.log(date.toLocaleTimeString());
+      console.log(date.getTimezoneOffset());
+      //London
+      console.log(date.getUTCDate());
+      console.log(date.getUTCHours());
+      //1/1/1970 time stamp
+      console.log(Date.now());
+      let birthday = new Date(1998,7,27);
+      console.log(birthday);
+
+    </script>
+</body>
+
+</html>
